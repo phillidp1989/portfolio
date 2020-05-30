@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext");
+html, body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: #C2CAE8;
+}
+
+.row {
+  width: 100%;
+  border-top: 10px #45F0DF solid;
+  margin-bottom: 0 !important;
+}
+
+::after {
+  content: none !important;
+}
+
+.nav-wrapper {
+  background-color: #111D4A !important;
+}
+
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #C2CAE8;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 20px;
+}
+
+#home h1 {
+  font-size: 50px;
+}
+
+#home h2 {
+  font-size: 40px;
+}
+
+#home h5 {
+  font-size: 20px;
+}
+
+.sidenav {
+  width: 250px !important;
+}
+
+.sidenav li {
+  border-bottom: 2px #45F0DF groove;
+}
+
+#details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#details h2 {
+  text-align: center;
+}
+
+.image-col {
+  margin: auto;
+}
+
+.line {
+  height: 3px;
+  width: 70%;
+  background-color: grey;
+  text-align: center;
+}
+
+.buttons {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.about-me-row {
+  background-color: #8380B6;
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+.about-me-row h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#brand-statement {
+  min-height: 450px;
+  background-position: center;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-me {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.heading {
+  background-color: #C2CAE8;
+  text-align: center;
+}
+
+.heading h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #8380B6;
+}
+
+.heading .line {
+  width: 100%;
+}
+
+.carousel {
+  text-align: center;
+  height: 300px;
+}
+
+.carousel .carousel-item {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.carousel .fas {
+  font-size: 70px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.carousel h4 {
+  color: black;
+  font-size: 25px;
+}
+
+.collapsible {
+  margin-top: 20px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 0;
+}
+
+.popup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  overflow: visible;
+  -webkit-transition: .64s ease-in-out;
+  transition: .64s ease-in-out;
+}
+
+.popup-inner {
+  position: relative;
+  bottom: -100vw;
+  right: -100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 80%;
+  padding-top: 20px;
+  margin-top: 30px;
+  background-color: #fff;
+  -webkit-transform: rotate(32deg);
+          transform: rotate(32deg);
+  -webkit-transition: .64s ease-in-out;
+  transition: .64s ease-in-out;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.popup__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.popup__photo img {
+  max-width: 80%;
+  max-height: auto;
+}
+
+.popup__text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  height: 100%;
+  overflow: visible;
+  text-align: center;
+}
+
+.popup__text h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #0A0A0A;
+}
+
+.popup__text p {
+  font-size: .875rem;
+  color: #686868;
+  line-height: 1.5;
+}
+
+.popup__text img {
+  width: 100%;
+  height: auto;
+}
+
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup:target .popup-inner {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.popup__close {
+  position: absolute;
+  right: 5%;
+  top: 9%;
+  width: 3rem;
+  height: 3rem;
+  font-size: .875rem;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: #45F0DF;
+  z-index: 4;
+  color: black;
+  line-height: 3rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.education-header {
+  text-align: center;
+}
+
+.education-header h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #8380B6;
+}
+
+.educ-ex {
+  text-align: center;
+}
+
+.educ-ex h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.educ-ex h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.educ-ex .educ-img {
+  width: 100%;
+  height: 285px;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 375px) {
+  .popup__photo {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .popup__photo {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #home {
+    padding-top: 0;
+  }
+  .sidenav {
+    width: 300px !important;
+  }
+  .about-me-row h1 {
+    font-size: 4.2rem;
+  }
+  #about-me {
+    width: 50%;
+  }
+  .heading h1 {
+    font-size: 4.2rem;
+  }
+  .carousel {
+    height: 400px;
+  }
+  .carousel .fas {
+    font-size: 100px;
+  }
+  .carousel .carousel-item {
+    padding: 0 17px;
+    width: 200px;
+    height: 200px;
+  }
+  .carousel h4 {
+    font-size: auto;
+  }
+  .popup__photo {
+    width: 40%;
+  }
+  .popup__text p {
+    font-size: 16px;
+  }
+  .popup__close {
+    right: 7%;
+  }
+  .education-header h1 {
+    font-size: 4.2rem;
+  }
+  .educ-ex .educ-img {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .popup-inner {
+    width: 70%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-right: 40px;
+  }
+  .popup__photo {
+    height: auto;
+    width: 100%;
+  }
+  .popup__text {
+    text-align: center;
+  }
+  .popup__close {
+    right: 13%;
+  }
+  .educ-ex .educ-img {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .carousel .carousel-item {
+    width: 250px !important;
+    height: 250px !important;
+  }
+  .carousel .fas {
+    font-size: 150px;
+    padding-bottom: 20px;
+    color: black;
+  }
+  .carousel h4 {
+    color: black;
+    font-size: 35px;
+  }
+  .popup-inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-right: 40px;
+  }
+  .popup__photo {
+    height: 100%;
+    width: auto;
+  }
+  .popup__text {
+    width: 60%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .popup__close {
+    right: 14%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
