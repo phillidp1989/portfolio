@@ -1,369 +1,600 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dan Phillips Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper grey darken-3">
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#brand-statement">About Me</a></li>
-                    <li><a href="#portfolio-heading">Portfolio</a></li>
-                    <li><a href="#education-details">Education & Experience</a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/in/daniel-phillips-65775485/"><i
-                                class="fab fa-linkedin"></i></a>
-                    </li>
-                    <li><a target="_blank" href="https://github.com/phillidp1989"><i class="fab fa-github"></i></a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="nav-wrapper grey darken-3">
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#brand-statement">About Me</a></li>
+            <li><a href="#portfolio-heading">Portfolio</a></li>
+            <li><a href="#education-details">Education & Experience</a></li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/daniel-phillips-65775485/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/phillidp1989"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
     <ul class="sidenav purple lighten-4" id="mobile-demo">
-        <li><a href="#brand-statement">About Me</a></li>
-        <li><a href="#portfolio-heading">Portfolio</a></li>
-        <li><a href="#education-details">Education & Experience</a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/daniel-phillips-65775485/"><i
-                    class="fab fa-linkedin"></i></a></li>
-        <li><a target="_blank" href="https://github.com/phillidp1989"><i class="fab fa-github"></i></a></li>
+      <li><a href="#brand-statement">About Me</a></li>
+      <li><a href="#portfolio-heading">Portfolio</a></li>
+      <li><a href="#education-details">Education & Experience</a></li>
+      <li>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/daniel-phillips-65775485/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </li>
+      <li>
+        <a target="_blank" href="https://github.com/phillidp1989"
+          ><i class="fab fa-github"></i
+        ></a>
+      </li>
     </ul>
 
     <!-- Header row -->
 
     <div id="home" class="row">
-        <div class="image-col col s12 m6 l4">
-            <img class="responsive-img profile z-depth-5"
-                src="./assets/00100lrPORTRAIT_00100_BURST20200517085437785_COVER.jpg"
-                alt="profile">
+      <div class="image-col col s12 m6 l4">
+        <img
+          class="responsive-img profile z-depth-5"
+          src="./assets/00100lrPORTRAIT_00100_BURST20200517085437785_COVER.jpg"
+          alt="profile"
+        />
+      </div>
+      <div class="col s12 m6 l8" id="details">
+        <h1>Dan Phillips</h1>
+        <div class="line"></div>
+        <h2>Full-Stack Web Developer</h2>
+        <h5>
+          <span><i class="fas fa-phone"></i></span> 07969569297
+        </h5>
+        <h5>
+          <span><i class="fas fa-envelope"></i></span> d.p.phillips@bham.ac.uk
+        </h5>
+        <h5>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/daniel-phillips-65775485/"
+            >LinkedIn</a
+          >
+          | <a target="_blank" href="https://github.com/phillidp1989">Github</a>
+        </h5>
+        <div class="buttons m-2">
+          <a
+            class="waves-effect waves-light teal accent-2 black-text btn"
+            href="./assets/Dan-Phillips-Resume.pdf"
+            download="Dan-Phillips-Resume"
+            >Download Resume</a
+          >
         </div>
-        <div class="col s12 m6 l8" id="details">
-            <h1>Dan Phillips</h1>
-            <div class="line"></div>
-            <h2>Full-Stack Web Developer</h2>
-            <h5><span><i class="fas fa-phone"></i></span>  07969569297</h5>
-            <h5><span><i class="fas fa-envelope"></i></span>  d.p.phillips@bham.ac.uk</h5>
-            <h5><a target="_blank" href="https://www.linkedin.com/in/daniel-phillips-65775485/">LinkedIn</a> |
-                <a target="_blank" href="https://github.com/phillidp1989">Github</a> </h5>
-            <div class="buttons m-2">
-                <a class="waves-effect waves-light teal accent-2 black-text btn" href="./assets/Dan-Phillips-Resume.pdf" download="Dan-Phillips-Resume">Download Resume</a>
-            </div>
-        </div>
+      </div>
     </div>
     <!-- Brand statement row -->
 
     <div class="row about-me-row">
-        <h1>About Me</h1>
+      <h1>About Me</h1>
     </div>
     <div id="brand-statement" class="row">
-        <div class="col s12" id="about-me">
-            <p>I am a full-stack web developer trained at the University of Birmingham Coding Bootcamp, with a
-                background in Higher Education, having worked most recently as Quality Officer and manager of the
-                Curriculum Management Team. As part of the coding bootcamp, I have developed numerous web applications,
-                utilising HTML, CSS, JavaScript, jQuery and APIs. I am a very strong communicator who can collaborate
-                well and manage my own
-                time and my management experience demonstrates that I can effectively lead a team. I am a quick learner
-                and very resourceful. I thoroughly enjoy solving problems and learning new skills wherever I can. I look
-                forward to putting my new found skills to the test in developing new technologies, making use of my
-                experience of managing teams and technical expertise gathered during my training as a web developer.</p>
-        </div>
+      <div class="col s12" id="about-me">
+        <p>
+          I am a full-stack web developer trained at the University of
+          Birmingham Coding Bootcamp, with a background in Higher Education,
+          having worked most recently as Quality Officer and manager of the
+          Curriculum Management Team. As part of the coding bootcamp, I have
+          developed numerous web applications, utilising HTML, CSS, JavaScript,
+          jQuery and APIs. I am a very strong communicator who can collaborate
+          well and manage my own time and my management experience demonstrates
+          that I can effectively lead a team. I am a quick learner and very
+          resourceful. I thoroughly enjoy solving problems and learning new
+          skills wherever I can. I look forward to putting my new found skills
+          to the test in developing new technologies, making use of my
+          experience of managing teams and technical expertise gathered during
+          my training as a web developer.
+        </p>
+      </div>
     </div>
-
-
 
     <!-- Portfolio heading -->
     <div id="portfolio-heading" class="row heading">
-        <h1>Portfolio</h1>
-        <div class="line"></div>
-        <div id="apps" class="row">
-            <div class="carousel">
-                <a class="carousel-item" href="#popup-password"><i class="fas fa-unlock-alt"></i>
-                    <h4>Password Generator</h4>
-                </a>
-                <a class="carousel-item" href="#popup-planner"><i class="fas fa-calendar-alt"></i>
-                    <h4>Day Planner</h4>
-                </a>
-                <a class="carousel-item" href="#popup-quiz"><i class="fas fa-gamepad"></i>
-                    <h4>JS Quiz</h4>
-                </a>
-                <a class="carousel-item" href="#popup-weather"><i class="fas fa-cloud"></i>
-                    <h4>Weather Dashboard</h4>
-                </a>
-                <a class="carousel-item" href="#popup-book"><i class="fas fa-book"></i>
-                    <h4>Book Search</h4>
-                </a>
-                <a class="carousel-item" href="#popup-team"><i class="fas fa-users"></i>
-                    <h4>Team Generator CLI</h4>
-                </a>
-            </div>
+      <h1>Portfolio</h1>
+      <div class="line"></div>
+      <div id="apps" class="row">
+        <div class="carousel">
+          <a class="carousel-item" href="#popup-password"
+            ><i class="fas fa-unlock-alt"></i>
+            <h4>Password Generator</h4>
+          </a>
+          <a class="carousel-item" href="#popup-planner"
+            ><i class="fas fa-calendar-alt"></i>
+            <h4>Day Planner</h4>
+          </a>
+          <a class="carousel-item" href="#popup-quiz"
+            ><i class="fas fa-gamepad"></i>
+            <h4>JS Quiz</h4>
+          </a>
+          <a class="carousel-item" href="#popup-weather"
+            ><i class="fas fa-cloud"></i>
+            <h4>Weather Dashboard</h4>
+          </a>
+          <a class="carousel-item" href="#popup-book"
+            ><i class="fas fa-book"></i>
+            <h4>Book Search</h4>
+          </a>
+          <a class="carousel-item" href="#popup-team"
+            ><i class="fas fa-users"></i>
+            <h4>Team Generator CLI</h4>
+          </a>
+          <a class="carousel-item" href="#popup-burger"
+            ><i class="fas fa-hamburger"></i>
+            <h4>Burger App</h4>
+          </a>
         </div>
+      </div>
     </div>
 
     <!-- Password Generator Modal -->
 
     <div class="container">
-        <div class="popup" id="popup-password">
-            <div class="popup-inner">
-                <div class="popup__photo">
-                    <img src="./assets/Password-Mobile.PNG" alt="Bookworm">
+      <div class="popup" id="popup-password">
+        <div class="popup-inner">
+          <div class="popup__photo">
+            <img src="./assets/Password-Mobile.PNG" alt="Bookworm" />
+          </div>
+          <div class="popup__text">
+            <h1>Password Generator</h1>
+            <p>
+              This is a web application that generates a random password based
+              on user-selected criteria. This app runs in the browser and
+              features dynamically updated HTML and CSS powered by JavaScript
+              code. It also features a clean, polished and responsive user
+              interface.
+            </p>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-desktop"></i>Demo
                 </div>
-                <div class="popup__text">
-                    <h1>Password Generator</h1>
-                    <p>This is a web application that generates a random password based on user-selected criteria. This
-                        app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript
-                        code. It also features a clean, polished and responsive user interface.</p>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-desktop"></i>Demo</div>
-                            <div class="collapsible-body"><img src="./assets/password-gif.gif" alt=""></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-link"></i>Links</div>
-                            <div class="collapsible-body"><a target="_blank"
-                                    href="https://github.com/phillidp1989/bootcamp_homework/tree/master/week3">Link to
-                                    GitHub Repo</a><br><br>
-                                <a target="_blank" href="https://phillidp1989.github.io/bootcamp_homework/week3/">Link
-                                    to Deployed Application</a>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="collapsible-body">
+                  <img src="./assets/password-gif.gif" alt="" />
                 </div>
-                
-            </div>
-            <a class="popup__close" href="#portfolio">X</a>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-link"></i>Links
+                </div>
+                <div class="collapsible-body">
+                  <a
+                    target="_blank"
+                    href="https://github.com/phillidp1989/bootcamp_homework/tree/master/week3"
+                    >Link to GitHub Repo</a
+                  ><br /><br />
+                  <a
+                    target="_blank"
+                    href="https://phillidp1989.github.io/bootcamp_homework/week3/"
+                    >Link to Deployed Application</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+        <a class="popup__close" href="#portfolio">X</a>
+      </div>
     </div>
 
     <!-- Day Planner Generator Modal -->
 
     <div class="container">
-        <div class="popup" id="popup-planner">
-            <div class="popup-inner">
-                <div class="popup__photo">
-                    <img src="./assets/Planner-Mobile.PNG" alt="Planner">
+      <div class="popup" id="popup-planner">
+        <div class="popup-inner">
+          <div class="popup__photo">
+            <img src="./assets/Planner-Mobile.PNG" alt="Planner" />
+          </div>
+          <div class="popup__text">
+            <h1>Day Planner</h1>
+            <p>
+              This is a calendar application that allows the user to save events
+              for each hour of the day. It runs in the browser and features
+              dynamically updated HTML and CSS powered by jQuery.
+            </p>
+            <p>
+              The colour of each hour is dynamically changed based on the
+              current time, using the moment.js library. Saved events are saved
+              to local storage and will still be available to the user following
+              a reload of the page.
+            </p>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-desktop"></i>Demo
                 </div>
-                <div class="popup__text">
-                    <h1>Day Planner</h1>
-                    <p>This is a calendar application that allows the user to save events for each hour of the day. It
-                        runs in the browser and features dynamically updated HTML and CSS powered by jQuery.</p>
-                    <p>The colour of each hour is dynamically changed based on the current time, using the moment.js
-                        library. Saved events are saved to local storage and will still be available to the user
-                        following a reload of the page.</p>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-desktop"></i>Demo</div>
-                            <div class="collapsible-body"><img src="./assets/planner-gif.gif" alt="planner-demo"></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-link"></i>Links</div>
-                            <div class="collapsible-body"><a target="_blank"
-                                    href="https://github.com/phillidp1989/bootcamp_homework/tree/master/week5">Link to
-                                    GitHub Repo</a><br><br>
-                                <a target="_blank" href="https://phillidp1989.github.io/bootcamp_homework/week5/">Link
-                                    to Deployed Application</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>                
-            </div>
-            <a class="popup__close" href="#portfolio">X</a>
+                <div class="collapsible-body">
+                  <img src="./assets/planner-gif.gif" alt="planner-demo" />
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-link"></i>Links
+                </div>
+                <div class="collapsible-body">
+                  <a
+                    target="_blank"
+                    href="https://github.com/phillidp1989/bootcamp_homework/tree/master/week5"
+                    >Link to GitHub Repo</a
+                  ><br /><br />
+                  <a
+                    target="_blank"
+                    href="https://phillidp1989.github.io/bootcamp_homework/week5/"
+                    >Link to Deployed Application</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+        <a class="popup__close" href="#portfolio">X</a>
+      </div>
     </div>
 
     <!-- JS Quiz Generator Modal -->
 
     <div class="container">
-        <div class="popup" id="popup-quiz">
-            <div class="popup-inner">
-                <div class="popup__photo">
-                    <img src="./assets/Quix-Mobile.PNG" alt="Quiz">
+      <div class="popup" id="popup-quiz">
+        <div class="popup-inner">
+          <div class="popup__photo">
+            <img src="./assets/Quix-Mobile.PNG" alt="Quiz" />
+          </div>
+          <div class="popup__text">
+            <h1>JavaScript Quiz</h1>
+            <p>
+              This is a timed code quiz with multiple choice questions. The app
+              runs in the browser and features dynamically updated HTML and CSS
+              powered by JavaScript code. The application is responsive to
+              different screen sizes.
+            </p>
+            <p>
+              The app features a starting screen, a series of questions which
+              are randomly looped through and a page in which the user can enter
+              their name to be added to the list of high scorers, details of
+              which are stored to local storage.
+            </p>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-desktop"></i>Demo
                 </div>
-                <div class="popup__text">
-                    <h1>JavaScript Quiz</h1>
-                    <p>This is a timed code quiz with multiple choice questions. The app runs in the browser and
-                        features dynamically updated HTML and CSS powered by JavaScript code. The application is
-                        responsive to different screen sizes.</p>
-                    <p>The app features a starting screen, a series of questions which are randomly looped through and a
-                        page in which the user can enter their name to be added to the list of high scorers, details of
-                        which are stored to local storage.</p>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-desktop"></i>Demo</div>
-                            <div class="collapsible-body"><img src="./assets//quiz-gif.gif" alt="quiz-demo"></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-link"></i>Links</div>
-                            <div class="collapsible-body"><a target="_blank"
-                                    href="https://github.com/phillidp1989/bootcamp_homework/tree/master/week4">Link to
-                                    GitHub Repo</a><br><br>
-                                <a target="_blank" href="https://phillidp1989.github.io/bootcamp_homework/week4/">Link
-                                    to Deployed Application</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>                
-            </div>
-            <a class="popup__close" href="#portfolio">X</a>
+                <div class="collapsible-body">
+                  <img src="./assets//quiz-gif.gif" alt="quiz-demo" />
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-link"></i>Links
+                </div>
+                <div class="collapsible-body">
+                  <a
+                    target="_blank"
+                    href="https://github.com/phillidp1989/bootcamp_homework/tree/master/week4"
+                    >Link to GitHub Repo</a
+                  ><br /><br />
+                  <a
+                    target="_blank"
+                    href="https://phillidp1989.github.io/bootcamp_homework/week4/"
+                    >Link to Deployed Application</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+        <a class="popup__close" href="#portfolio">X</a>
+      </div>
     </div>
 
     <!-- Weather Dashboard Generator Modal -->
 
     <div class="container">
-        <div class="popup" id="popup-weather">
-            <div class="popup-inner">
-                <div class="popup__photo">
-                    <img src="./assets/Weather-Mobile.PNG" alt="Quiz">
+      <div class="popup" id="popup-weather">
+        <div class="popup-inner">
+          <div class="popup__photo">
+            <img src="./assets/Weather-Mobile.PNG" alt="Quiz" />
+          </div>
+          <div class="popup__text">
+            <h1>Weather Dashboard</h1>
+            <p>
+              This is a weather dashboard which provides the user with the
+              ability to search for a city and be presented with the current
+              weather and the 5-day forecast.
+            </p>
+            <p>
+              The app features a header with the title of 'Weather Dashboard', a
+              sidebar containing a search bar, list of recently searched cities
+              pulled from local storage (maximum of 8) and the main part of the
+              app shows the current weather of a searched for city and the five
+              day forecast. In addition to the core functionality, I have added
+              a clear history button, which wipes local storage and clears the
+              list of recently searched for cities. Also, there is a button
+              which toggles between celsius and farenheit metrics for the
+              current and forecast temperatures. The app makes use of bootstrap
+              grid system, so the site is fully responsive to devices of
+              different sizes.
+            </p>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-desktop"></i>Demo
                 </div>
-                <div class="popup__text">
-                    <h1>Weather Dashboard</h1>
-                    <p>This is a weather dashboard which provides the user with the ability to search for a city and be
-                        presented with the current weather and the 5-day forecast.</p>
-                    <p>The app features a header with the title of 'Weather Dashboard', a sidebar containing a search
-                        bar, list of recently searched cities pulled from local storage (maximum of 8) and the main part
-                        of the app shows the current weather of a searched for city and the five day forecast. In
-                        addition to the core functionality, I have added a clear history button, which wipes local
-                        storage and clears the list of recently searched for cities. Also, there is a button which
-                        toggles between celsius and farenheit metrics for the current and forecast temperatures. The app
-                        makes use of bootstrap grid system, so the site is fully responsive to devices of different
-                        sizes.</p>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-desktop"></i>Demo</div>
-                            <div class="collapsible-body"><img src="./assets/weather-gif.gif" alt="weather-demo"></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-link"></i>Links</div>
-                            <div class="collapsible-body"><a target="_blank"
-                                    href="https://github.com/phillidp1989/bootcamp_homework/tree/master/week6">Link to
-                                    GitHub Repo</a><br><br>
-                                <a target="_blank" href="https://phillidp1989.github.io/bootcamp_homework/week6/">Link
-                                    to Deployed Application</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>                
-            </div>
-            <a class="popup__close" href="#portfolio">X</a>
+                <div class="collapsible-body">
+                  <img src="./assets/weather-gif.gif" alt="weather-demo" />
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-link"></i>Links
+                </div>
+                <div class="collapsible-body">
+                  <a
+                    target="_blank"
+                    href="https://github.com/phillidp1989/bootcamp_homework/tree/master/week6"
+                    >Link to GitHub Repo</a
+                  ><br /><br />
+                  <a
+                    target="_blank"
+                    href="https://phillidp1989.github.io/bootcamp_homework/week6/"
+                    >Link to Deployed Application</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+        <a class="popup__close" href="#portfolio">X</a>
+      </div>
     </div>
 
     <!-- Book Search Generator Modal -->
 
     <div class="container">
-        <div class="popup" id="popup-book">
-            <div class="popup-inner">
-                <div class="popup__photo">
-                    <img src="./assets//Bookwork-Mobile.PNG" alt="Quiz">
+      <div class="popup" id="popup-book">
+        <div class="popup-inner">
+          <div class="popup__photo">
+            <img src="./assets//Bookwork-Mobile.PNG" alt="Quiz" />
+          </div>
+          <div class="popup__text">
+            <h1>Book Search</h1>
+            <p>
+              This is a book search application in which the user can search for
+              books based on at least one of three search parameters. The app
+              utilises the Google Books and Exchange Rate APIs to provide the
+              user with information about their chosen book and its retail price
+              in GBP.
+            </p>
+            <p>
+              There is also functionality allowing the user to add books to
+              their read list and to specify a target read date. The read list
+              is saved to local storage and will persist when the user reloads
+              the page.
+            </p>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-desktop"></i>Demo
                 </div>
-                <div class="popup__text">
-                    <h1>Book Search</h1>
-                    <p>This is a book search application in which the user can search for books based on at least one of
-                        three search parameters. The app utilises the Google Books and Exchange Rate APIs to provide the
-                        user with information about their chosen book and its retail price in GBP.</p>
-                    <p>There is also functionality allowing the user to add books to their read list and to specify a
-                        target read date. The read list is saved to local storage and will persist when the user reloads
-                        the page.</p>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-desktop"></i>Demo</div>
-                            <div class="collapsible-body"><img src="./assets/book-gif.gif" alt="book-demo"></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-link"></i>Links</div>
-                            <div class="collapsible-body"><a target="_blank"
-                                    href="https://github.com/JoeDodgson/Bookworm">Link to
-                                    GitHub Repo</a><br><br>
-                                <a target="_blank" href="https://joedodgson.github.io/Bookworm/home.html">Link
-                                    to Deployed Application</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>                
-            </div>
-            <a class="popup__close" href="#portfolio">X</a>
+                <div class="collapsible-body">
+                  <img src="./assets/book-gif.gif" alt="book-demo" />
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-link"></i>Links
+                </div>
+                <div class="collapsible-body">
+                  <a
+                    target="_blank"
+                    href="https://github.com/JoeDodgson/Bookworm"
+                    >Link to GitHub Repo</a
+                  ><br /><br />
+                  <a
+                    target="_blank"
+                    href="https://joedodgson.github.io/Bookworm/home.html"
+                    >Link to Deployed Application</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+        <a class="popup__close" href="#portfolio">X</a>
+      </div>
     </div>
 
     <!-- Team Generator Modal -->
 
     <div class="container">
-        <div class="popup" id="popup-team">
-            <div class="popup-inner">
-                <div class="popup__photo">
-                    <img src="./assets/cli-mobile.PNG" alt="cli">
+      <div class="popup" id="popup-team">
+        <div class="popup-inner">
+          <div class="popup__photo">
+            <img src="./assets/cli-mobile.PNG" alt="cli" />
+          </div>
+          <div class="popup__text">
+            <h1>Team Generator CLI</h1>
+            <p>
+              This is a a software engineering team generator command line
+              application. The application will prompt the user for information
+              about the team manager and then information about the team
+              members. The user can input any number of team members, and they
+              may be a mix of engineers and interns. When the user has completed
+              building the team, the application creates an HTML file that
+              displays a nicely formatted team roster based on the information
+              provided by the user. The app runs as a Node CLI.
+            </p>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-desktop"></i>Demo
                 </div>
-                <div class="popup__text">
-                    <h1>Team Generator CLI</h1>
-                    <p>This is a a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application creates an HTML file that displays a nicely formatted team roster based on the information provided by the user. The app runs as a Node CLI.</p>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-desktop"></i>Demo</div>
-                            <div class="collapsible-body"><img src="./assets/cli-demo.gif" alt="cli-gif"></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="fas fa-link"></i>Links</div>
-                            <div class="collapsible-body"><a target="_blank"
-                                    href="https://github.com/phillidp1989/Team-Generator">Link to
-                                    GitHub Repo</a><br><br>                                
-                            </div>
-                        </li>
-                    </ul>
+                <div class="collapsible-body">
+                  <img src="./assets/cli-demo.gif" alt="cli-gif" />
                 </div>
-                
-            </div>
-            <a class="popup__close" href="#portfolio">X</a>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-link"></i>Links
+                </div>
+                <div class="collapsible-body">
+                  <a
+                    target="_blank"
+                    href="https://github.com/phillidp1989/Team-Generator"
+                    >Link to GitHub Repo</a
+                  ><br /><br />
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+        <a class="popup__close" href="#portfolio">X</a>
+      </div>
+    </div>
+
+    <!-- Burger App Modal -->
+
+    <div class="container">
+      <div class="popup" id="popup-burger">
+        <div class="popup-inner">
+          <div class="popup__photo">
+            <img src="./assets/Burger-app-desktop.PNG" alt="burger" />
+          </div>
+          <div class="popup__text">
+            <h1>Burger App</h1>
+            <p>
+              A burger logging app built with MySQL, Node, Express, Handlebars
+              and a homemade ORM. The project follws the MVC design pattern,
+              using Node and MySQL to query and route data to the app and
+              Handlebars to generate the HTML.
+            </p>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-desktop"></i>Demo
+                </div>
+                <div class="collapsible-body">
+                  <img src="./assets/burger-demo.gif" alt="burger-gif" />
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-link"></i>Links
+                </div>
+                <div class="collapsible-body">
+                  <a
+                    target="_blank"
+                    href="https://github.com/phillidp1989/Burger-App"
+                    >Link to GitHub Repo</a
+                  ><br /><br />
+                  <a
+                    target="_blank"
+                    href="https://nameless-brushlands-91393.herokuapp.com/"
+                    >Link to Deployed Application</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="popup__close" href="#portfolio">X</a>
+      </div>
     </div>
 
     <!-- Education and Experience -->
 
     <div class="row education-header">
-        <h1>Education and Experience</h1>
+      <h1>Education and Experience</h1>
     </div>
     <div class="row" id="education-details">
-        <div class="col s12 m4 educ-ex" id="birmingham">
-            <img class="educ-img"
-                src="https://i.guim.co.uk/img/media/10776732e4de44ac526313d88d7090cd5a82461d/19_52_1259_755/master/1259.jpg?width=1200&quality=85&auto=format&fit=max&s=3511729fb28b5130b4a69f27b2082481"
-                alt="uob">
-            <h4>Full-stack bootcamp</h4>
-            <h5>University of Birmingham</h5>
-            <p>HTML5, HTML6, CSS, JavaScript, jQuery, Bootstrap, Node.js, Git, and APIs</p>
-            <h5>2020</h5>
-        </div>
-        <div class="col s12 m4 educ-ex" id="manchester">
-            <img class="educ-img"
-                src="https://content.presspage.com/uploads/1369/universityofmanchester-845224.jpg?10000" alt="uom">
-            <h4>BA Criminology</h4>
-            <h5>University of Manchester</h5>
-            <p>Analytical skills, research methods, psychological, sociological and anthropological practice</p>
-            <h5>2010</h5>
-        </div>
-        <div class="col s12 m4 educ-ex" id="work-uob">
-            <img class="educ-img" src="https://theboar.org/wp-content/uploads/2019/12/birmingham-uni.jpg"
-                alt="uni-birm">
-            <h4>Work Experience</h4>
-            <h5>University of Birmingham</h5>
-            <p>Head of CMT, College Quality Officer, Admissions Officer</p>
-            <h5>2010-present</h5>
-        </div>
+      <div class="col s12 m4 educ-ex" id="birmingham">
+        <img
+          class="educ-img"
+          src="https://i.guim.co.uk/img/media/10776732e4de44ac526313d88d7090cd5a82461d/19_52_1259_755/master/1259.jpg?width=1200&quality=85&auto=format&fit=max&s=3511729fb28b5130b4a69f27b2082481"
+          alt="uob"
+        />
+        <h4>Full-stack bootcamp</h4>
+        <h5>University of Birmingham</h5>
+        <p>
+          HTML5, HTML6, CSS, JavaScript, jQuery, Bootstrap, Node.js, Git, and
+          APIs
+        </p>
+        <h5>2020</h5>
+      </div>
+      <div class="col s12 m4 educ-ex" id="manchester">
+        <img
+          class="educ-img"
+          src="https://content.presspage.com/uploads/1369/universityofmanchester-845224.jpg?10000"
+          alt="uom"
+        />
+        <h4>BA Criminology</h4>
+        <h5>University of Manchester</h5>
+        <p>
+          Analytical skills, research methods, psychological, sociological and
+          anthropological practice
+        </p>
+        <h5>2010</h5>
+      </div>
+      <div class="col s12 m4 educ-ex" id="work-uob">
+        <img
+          class="educ-img"
+          src="https://theboar.org/wp-content/uploads/2019/12/birmingham-uni.jpg"
+          alt="uni-birm"
+        />
+        <h4>Work Experience</h4>
+        <h5>University of Birmingham</h5>
+        <p>Head of CMT, College Quality Officer, Admissions Officer</p>
+        <h5>2010-present</h5>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
