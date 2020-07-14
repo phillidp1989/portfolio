@@ -140,6 +140,14 @@
       <div class="line"></div>
       <div id="apps" class="row">
         <div class="carousel">
+          <a class="carousel-item" href="#popup-grub"
+            ><i class="fas fa-utensils"></i>
+            <h4>Full-stack recipe search</h4>
+          </a>
+          <a class="carousel-item" href="#popup-book"
+            ><i class="fas fa-book"></i>
+            <h4>Book Search</h4>
+          </a>
           <a class="carousel-item" href="#popup-password"
             ><i class="fas fa-unlock-alt"></i>
             <h4>Password Generator</h4>
@@ -155,11 +163,7 @@
           <a class="carousel-item" href="#popup-weather"
             ><i class="fas fa-cloud"></i>
             <h4>Weather Dashboard</h4>
-          </a>
-          <a class="carousel-item" href="#popup-book"
-            ><i class="fas fa-book"></i>
-            <h4>Book Search</h4>
-          </a>
+          </a>          
           <a class="carousel-item" href="#popup-team"
             ><i class="fas fa-users"></i>
             <h4>Team Generator CLI</h4>
@@ -167,7 +171,7 @@
           <a class="carousel-item" href="#popup-burger"
             ><i class="fas fa-hamburger"></i>
             <h4>Burger App</h4>
-          </a>
+          </a>                    
         </div>
       </div>
     </div>
@@ -508,7 +512,7 @@
             <h1>Burger App</h1>
             <p>
               A burger logging app built with MySQL, Node, Express, Handlebars
-              and a homemade ORM. The project follws the MVC design pattern,
+              and a homemade ORM. The project follows the MVC design pattern,
               using Node and MySQL to query and route data to the app and
               Handlebars to generate the HTML.
             </p>
@@ -545,6 +549,53 @@
       </div>
     </div>
 
+    <!-- Get Grub Modal -->
+
+    <div class="container">
+      <div class="popup" id="popup-grub">
+        <div class="popup-inner">
+          <div class="popup__photo">
+            <img src="./assets/grub.PNG" alt="get-grub" />
+          </div>
+          <div class="popup__text">
+            <h1>Recipe Search</h1>
+            <p>
+              A full-stack, recipe search app built with MySQL, Node, Express, Handlebars
+              and Passport.js. The app requires users to login using Google OAuth and enables searching and viewing of recipes. Chosen recipes can then be saved to the user's dashboard with additional notes saved to an SQL database.
+            </p>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-desktop"></i>Demo
+                </div>
+                <div class="collapsible-body">
+                  <img src="./assets/grub.gif" alt="grub-gif" />
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fas fa-link"></i>Links
+                </div>
+                <div class="collapsible-body">
+                  <a
+                    target="_blank"
+                    href="https://github.com/meeday/git_grub"
+                    >Link to GitHub Repo</a
+                  ><br /><br />
+                  <a
+                    target="_blank"
+                    href="https://get-grub-app.herokuapp.com"
+                    >Link to Deployed Application</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="popup__close" href="#portfolio">X</a>
+      </div>
+    </div>
+
     <!-- Education and Experience -->
 
     <div class="row education-header">
@@ -560,8 +611,7 @@
         <h4>Full-stack bootcamp</h4>
         <h5>University of Birmingham</h5>
         <p>
-          HTML5, HTML6, CSS, JavaScript, jQuery, Bootstrap, Node.js, Git, and
-          APIs
+          HTML5, HTML6, CSS, JavaScript, jQuery, Node.js, SQL, MongoDB, Jest, Express
         </p>
         <h5>2020</h5>
       </div>
